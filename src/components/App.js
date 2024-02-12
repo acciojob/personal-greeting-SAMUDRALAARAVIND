@@ -11,8 +11,8 @@ const App = () => {
 
   return (
     <div>
-        <label htmlFor="name">Enter your name:</label>
-        <input id="name" onChange={onChangeText} />
+        <p>Enter your name:</p>
+        <input onChange={onChangeText} />
         {inputValue && <p>{`Hello ${inputValue}!`}</p>}
     </div>
   )
